@@ -10,6 +10,11 @@
 
     <packaging>pom</packaging>
     <modules>
+        <module>paypayer-wechat</module>
+        <module>paypayer-alipay</module>
+        <module>paypayer-chinabank</module>
+        <module>paypayer-jdpay</module>
+        <module>paypayer-basic</module>
     </modules>
 
     <groupId>org.paypayer</groupId>
