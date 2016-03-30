@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html>
+<header></header>
+<body>
+<form name="payForm" action="$url" method="$method">
+    #foreach($key in ${param.keySet()})
+        <input type="hidden" name="$key" value="${param.get($key)}" />
+    #end
+</form>
+<script type="text/javascript">document.payForm.submit();</script>
+</body>
+</html>
