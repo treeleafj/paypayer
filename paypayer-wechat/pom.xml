@@ -11,5 +11,13 @@
 
     <artifactId>paypayer-wechat</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.6.1</version>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
 
 </project>
